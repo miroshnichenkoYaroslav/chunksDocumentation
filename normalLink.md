@@ -57,4 +57,4 @@ $masBits = [
 + `$masBits[17]` - категории
 + `$masBits[18]` - может принимать значение 3, использование пока не ясно
 
-![screen2](file://images/normal_link1.jpg)
+![normal link](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/normal_link1.jpg)
