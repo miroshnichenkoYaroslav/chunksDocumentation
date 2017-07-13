@@ -35,6 +35,9 @@ $masBits = [
 ```
 ## Описание каждого элемента массива:
 **1. Вкладка "Элемент" в десктопном клиенте:**
+
+![normal link](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/normal-link.jpg)
+
 + `$masBits[0]` - идентификатор страницы, на которой используется чанк
 + `$masBits[1]` - тип чанка, в данном случае `0` - это обычная ссылка
 + `$masBits[2]` - передается в качестве аргумента в функцию `analyseBit()` - в ней число конвертируется в двоичную систему, полученная строка перегоняется в массив, массив переворачивают, дописуют элементы в массив `0 (int)` до размера массива `10` и возвращают массив флагов `$masFlag`. В десктопной версии это "Свойства элемента".  
@@ -45,6 +48,9 @@ $masBits = [
 + `$masBits[4]` - все уровни вниз.
 
 **2. Вкладка "Настройки списка" в десктопном клиенте**
+
+![normal link](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/list-settings.jpg)
+
 + `$masBits[5]` - лимит (не более)
 + `$masBits[6]` - сортировка, последних опубликованных (новые выше)
 + `$masBits[7]` - не используется в проекте
@@ -60,4 +66,10 @@ $masBits = [
 + `$masBits[17]` - категории
 + `$masBits[18]` - может принимать значение 3, использование пока не ясно
 
-![normal link](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/normal_link1.jpg)
+### HTML код обычной ссылки
+
+В html документ вставиться такой код:
+
+```html
+<p><!-- [Date] --><a href="#">Page Title</a></p>
+```
