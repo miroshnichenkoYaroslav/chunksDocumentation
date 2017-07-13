@@ -37,7 +37,7 @@ $masBits = [
 
 ### 1. Вкладка "Элемент" в десктопном клиенте: 
 
-![basket](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/basket.jpg)
+![normal link](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/normal-link.jpg)
 
 + `$masBits[0]` - идентификатор страницы, на которой используется чанк;
 + `$masBits[1]` - тип чанка, в данном случае `8` - это **Корзина**;
@@ -48,7 +48,7 @@ $masBits = [
 
 ### 2. Вкладка "Настройки списка" в десктопном клиенте:
 
-![basket](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/list-settings.jpg)
+![normal link](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/list-settings.jpg)
 
 + `$masBits[5]` - лимит (не более);
 + `$masBits[6]` - сортировка, последних опубликованных (новые выше);
@@ -63,9 +63,6 @@ $masBits = [
 + `$masBits[15]` - не используется в проекте;
 + `$masBits[16]` - не используется в проекте;
 + `$masBits[17]` - категории;
-+ `$masBits[18]` - хранит в себе тип ссылки:
-	- `$masBits[18][0]` - нормальная;
-	- `$masBits[18][1]` - мажорная;
-	- `$masBits[18][2]` - пользовательская;
-	- `$masBits[18][3]` - динамическая;
++ `$masBits[18]` - хранит в себе тип ссылки(нормальная, мажорная, пользовательская, динамическая);
+
 
