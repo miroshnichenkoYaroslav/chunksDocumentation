@@ -10,6 +10,10 @@
 
 В столбце `body` лежит JavaScript код.
 
+** Вкладка "Элемент" в десктопном клиенте:**
+
+![active logic](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/active-logic.jpg)
+
 ## Пример JavaScript кода
 
 На странице пользователя вставится такой код:
