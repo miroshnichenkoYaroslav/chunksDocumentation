@@ -35,6 +35,7 @@ $masBits = [
 ```
 ## Описание каждого элемента массива:
 
+
 **1. Вкладка "Элемент" в десктопном клиенте.**
 
 ![page contents](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/page-contents.jpg)
