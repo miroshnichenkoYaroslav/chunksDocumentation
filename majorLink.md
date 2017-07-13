@@ -35,7 +35,7 @@ $masBits = [
 ### Описание каждого элемента массива:
 **1. Вкладка "Элемент" в десктопном клиенте**
 
-![normal link](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/major-link.jpg)
+![major link](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/major-link.jpg)
 
 + `$masBits[0]` - идентификатор страницы, на которой используется чанк
 + `$masBits[1]` - тип чанка, в данном случае `0` - это обычная ссылка
@@ -47,7 +47,7 @@ $masBits = [
 
 **2. Вкладка "Настройки списка" в десктопном клиенте**
 
-![normal link](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/list-settings.jpg)
+![major link](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/list-settings.jpg)
 
 + `$masBits[5]` - лимит (не более)
 + `$masBits[6]` - сортировка, последних опубликованных (новые выше)
