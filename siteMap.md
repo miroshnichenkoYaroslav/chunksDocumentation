@@ -41,7 +41,8 @@ $masBits = [
 ];
 ```
 ## Описание каждого элемента массива:
-**1. Вкладка "Элемент" в десктопном клиенте:**
+
+### 1. Вкладка "Элемент" в десктопном клиенте:
 
 ![sitemap](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/sitemap.jpg)
 
@@ -61,7 +62,7 @@ $masBits = [
 + `$masBits[3]` - к вложенным страницам;
 + `$masBits[4]` - все уровни вниз;
 
-**2. Вкладка "Настройки списка" в десктопном клиенте**
+### 2. Вкладка "Настройки списка" в десктопном клиенте
 
 ![sitemap](https://github.com/miroshnichenkoYaroslav/chunksDocumentation/blob/master/images/list-settings.jpg)
 
